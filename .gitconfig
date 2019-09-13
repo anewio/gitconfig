@@ -146,3 +146,4 @@
 	flat = clone --depth 1
 	subpull = !git submodule foreach git pull --tags origin master
 	subrepo = !sh -c 'filter-branch --prune-empty --subdirectory-filter $1 master' -
+	subupdate = submodule update --init
